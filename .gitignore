@@ -1,0 +1,6 @@
+.idea/
+venv/
+db.db
+main.py
+hotjobs.txt
+
