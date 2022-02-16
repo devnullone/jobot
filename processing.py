@@ -14,7 +14,7 @@ try:
 except:
     print("Une erreur s'est produite pd de l'ouverture de la database")
 
-with open('alljobs.txt', 'r') as file:
+with open('WaJobsLinks.txt', 'r') as file:
     for line in file:
         #line = 'https://www.emploi.tg/offre-emploi-togo/chef-projet-ran-166603'
         url = line.strip()
@@ -64,7 +64,7 @@ with open('alljobs.txt', 'r') as file:
 # Insertion Multiple dans la database
 # dbconnect.executemany('INSERT INTO q1_person_name(first_name, last_name) VALUES (?,?)', data_person_name)
 
-dbconnect.executemany("INSERT INTO Emplois (title,postDate,annoceur,annonceurWeb,annonceurSecteurDactivite,annonceBody) \
+dbconnect.executemany("INSERT INTO WaEmplois (title,postDate,annoceur,annonceurWeb,annonceurSecteurDactivite,annonceBody) \
                     VALUES (?,?,?,?,?,?)", emplois);
 
 dbconnect.commit()       # Commit vers la database
