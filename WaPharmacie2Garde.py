@@ -5,7 +5,7 @@ import sqlite3
 import time
 from datetime import date
 
-#source = 'https://www.pharmaicie.tg/
+#source = 'https://www.pharmacie.tg/
 source =  "" 
 pharmacies = []
 
