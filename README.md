@@ -1,14 +1,9 @@
-ToDo :
-- Introduction
-- Fonctionalités
-- Techno
-- BM
 
 ### Introduction
 
-Cet projet vise a scrapper des offres d'emploi sur le net et à faire acceder ses informations aux utilisateurs/chommeur(e)s/Diplomé(e)s/etc... au travers d'une interface utilisateur simple et accessible (un botnet whatsapp/telegram , d'un channel telegram ou d'un autre site web).
+Cet projet vise a scrapper des offres d'emploi sur le net et à faire acceder ses informations aux utilisateurs/chommeur(e)s/Diplomé(e)s/etc... au travers d'une interface utilisateur simple et accessible (un bot whatsapp/telegram , d'un channel telegram ou d'un autre site web).
 
-### Fonctionalités
+### Fonctionalités (Prévision)
 
 L'utilisateur pourra: 
 - Remplir un formulaire d'information
@@ -19,13 +14,13 @@ L'utilisateur pourra:
 - Ajouter un fichier Cv (Sera envoyer à l'employeur lorsqu'un utilisateur postule à une offre d'emploi)
 - Payer pour activer certainses fonctionalités
 
-### Techno
+### Technologies
 
-- Beatifull Soup - For Scraping
-- Cron Tasks - For automate scraping scripts
-- Whatsapp/Telegram Api - For bot creation
+- Beatifull Soup - For Scraping✅
+- Whatsapp/Telegram Api - For bot ✅
+- Cron Tasks - For automate scraping scripts process
 - Sqlite3 - For database
-- Django/CodeIgniter4 - For small  site web
+- Flask/CodeIgniter4 - For small  site web
 - Cinetpay Api - For Mobile Payements
 
 ----------------------------------------------
