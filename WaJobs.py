@@ -18,7 +18,7 @@ for i in range(4):
         time.sleep(3)
 
 #Write all Links in .txt file
-with open('alljobs.txt', 'w') as file:
+with open('WaJobsLinks.txt', 'w') as file:
     for link in alllinks:
         file.write(link + '\n')
 
