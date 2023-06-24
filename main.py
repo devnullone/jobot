@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-url = ""
+url = "" # Main Url
 response = requests.get(url)
 
 latestlks = []
@@ -16,7 +16,7 @@ if response.ok:
     latestlks = list(latestlks_) # set -> list
     print(latestlks)
 
-# Write all Links in .txt file
+# Write all Links in .txt file - Get Links to process on
 with open('top_jobs.txt', 'w') as file:
     for link in latestlks:
         file.write(link + '\n')
