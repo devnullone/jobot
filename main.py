@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-url = "https://www.emploi.tg/"
+url = ""
 response = requests.get(url)
 
 latestlks = []
